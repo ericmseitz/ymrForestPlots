@@ -130,5 +130,28 @@
   <script type="text/javascript" src="assets/js/plugins.js"></script>
   <script type="text/javascript" src="assets/js/menu.js"></script>
   <script type="text/javascript" src="assets/js/custom.js"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBdBSuxIB5S3xX54yRdlQWkuONyvhUu-zo",
+    authDomain: "ymrforestplots.firebaseapp.com",
+    databaseURL: "https://ymrforestplots.firebaseio.com",
+    projectId: "ymrforestplots",
+    storageBucket: "ymrforestplots.appspot.com",
+    messagingSenderId: "239984647500",
+    appId: "1:239984647500:web:25567bc3e97bc7227403e9",
+    measurementId: "G-2XGN60P4D0"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
   </body>
 </html>
