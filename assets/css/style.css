@@ -1015,6 +1015,13 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 /*-------------------------------------------------
 ----------- About Section Styling Starts ----------
 --------------------------------------------------*/
+#map {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 600px;
+  height: 400px;
+}
 
 .about {
 	padding: 100px 0 100px 0;
@@ -1200,13 +1207,6 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 /*----------------------------------------------------
 ----------- Features Section Styling Starts ----------
 -----------------------------------------------------*/
-#map {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 600px;
-  height: 400px;
-}
 
 .features {
 	padding: 25px 0 25px 0;
