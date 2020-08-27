@@ -1,0 +1,49 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "GP01",
+        "family": "Kerckoff/Lageson"
+      },
+      "geometry": {
+        "coordinates": [-119.68782, 37.47597],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "GP02",
+        "family": "Flynn"
+      },
+      "geometry": {
+        "coordinates": [-119.68391, 37.48007],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "GP03",
+        "family": "Youngblood"
+      },
+      "geometry": {
+        "coordinates": [-119.67443, 37.47935],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "GP19",
+        "family": "Jorgensen"
+      },
+      "geometry": {
+        "coordinates": [-119.68845, 37.48158],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}
