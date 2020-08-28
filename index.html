@@ -7,7 +7,8 @@
     <link rel="icon" href="assets/logos/favicon.png" type="image/png" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Shareholder Forest Plots and Tree Data">
-    <meta name="keywords" content="Advent HTML Template, Advent Landing Page, Landing Page Template">
+    <meta name="keywords" content="YMR Tree Plots">
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/animate.css"> <!-- Resource style -->
@@ -15,7 +16,6 @@
     <link rel="stylesheet" href="assets/css/owl.theme.css">
     <link rel="stylesheet" href="assets/css/ionicons.min.css"> <!-- Resource style -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
-        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
   </head>
@@ -66,14 +66,14 @@
 
       <div class="about text-center">
         <div class="container">
-          <p>Where the map goes
+          <p>
             <div id='map'>
               <script>
                 mapboxgl.accessToken = 'pk.eyJ1IjoiZXJpY21zZWl0eiIsImEiOiJja2Nlc2M0amQwYmQzMnJwODF6djlnYnA4In0.4eOlFyKmgUeLZymEBWPyZA'; 
                 var map = new mapboxgl.Map({
                 container: 'map',
                 style: 'mapbox://styles/ericmseitz/cked5411107ac19o8w1rodpse', 
-                center: [-119.68391, 37.4800],
+                center: [-119.661605, 37.467459],
                 zoom: 12
                 });
                 map.on('click', function(e) {
@@ -92,6 +92,9 @@
                 .setHTML('<h3>' + feature.properties.title + '</h3><p>' + feature.properties.family + '</p>')
                 .addTo(map);
                 });
+
+                map.addControl(new mapboxgl.NavigationControl());
+
               </script>
             </div>
           </p>
