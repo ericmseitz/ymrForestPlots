@@ -1019,8 +1019,9 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
   position: relative;
   top: 0;
   bottom: 0;
-  width: 600px;
-  height: 400px;
+  width: 800px;
+  height: 500px;
+  text-align: center;
 }
 
 .about {
